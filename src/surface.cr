@@ -192,8 +192,8 @@ module SDL
     end
 
     # Requires `SDL_image`.
-    #def save_png(path)
-    #end
+    # def save_png(path)
+    # end
 
     private def surface
       @surface.value
@@ -203,9 +203,9 @@ module SDL
       PixelFormat.new(surface.format)
     end
 
-    #protected def pixels
+    # protected def pixels
     #  surface.pixels
-    #end
+    # end
 
     def to_unsafe
       @surface
